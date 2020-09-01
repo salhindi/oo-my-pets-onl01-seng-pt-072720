@@ -60,8 +60,9 @@ class Owner
       cat.owner = nil
     end
     
-    cats.each {|cat| cat.mood = "nervous", dog.owner = nil}
-   
-    
+    cats.each do |cat| 
+      cat.mood = "nervous"
+      dog.owner = nil
+    end
     end
 end
