@@ -58,7 +58,7 @@ class Owner
     dogs.each {|dog| dog.mood = "nervous"}
     cats.each {|cat| cat.mood = "nervous"}
     while sell_pets 
-      @owner = nil
+      owner = nil
     end
   end
 end
