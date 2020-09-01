@@ -59,5 +59,4 @@ class Owner
     cats.each {|cat| cat.mood = "nervous"}
       owner = nil
     end
-  end
 end
